@@ -309,6 +309,17 @@
             color: white;
             background-color: #ff8080;
         }
+
+        /* 반응형 웹 디자인: Responsive Web Design */
+        /* 1. Smart Phone */
+        @media (min-width: 320px) and (max-width: 768px) {
+            html,  body {font-size: 53%;}
+            div.intro_box {display: none;}
+            div.wrapper {
+                justify-content: center;
+                align-items: center;
+            }
+        }
     </style>
 </head>
 <body>
@@ -467,8 +478,13 @@
                                 </div>
                             </div>
                         </div>  
+                        <div class="resume_contents">
+                            <div class="contents_title">자격증</div> 
+                        </div>
                     </div>
+
                 </div>
+
                 <div class="tab_box box04"></div>
                 <div class="tab_box box05"></div>
             </div>
